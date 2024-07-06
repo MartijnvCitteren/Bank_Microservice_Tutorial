@@ -14,7 +14,6 @@ import com.example.accounts.repository.CustomerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.Optional;
 import java.util.Random;
 
@@ -48,20 +47,20 @@ public class AccountsServiceImp implements AccountsService {
         boolean isUpdated = false;
         AccountsDto accountsDto = customerDto.accountsDto();
 
-        if(accountsDto !=null ) {
+        if (accountsDto != null) {
             Accounts accounts = accountsRepository.findById(accountsDto.accountNumber()).orElseThrow(
                     () -> new ResourceNotFoundException("Account", "AccountNumber", accountsDto.accountNumber().toString())
             );
 
             Customer customer = customerRepository.findById(accounts.getCustomerId()).orElseThrow(
-                () -> new ResourceNotFoundException("Customer", "CustomerID",
-                        accounts.getCustomerId().toString()));
+                    () -> new ResourceNotFoundException("Customer", "CustomerID",
+                            accounts.getCustomerId().toString()));
 
             accountsRepository.save(setAccountDetails(accounts, accountsDto));
             customerRepository.save(setCustomerDetails(customer, customerDto));
             isUpdated = true;
         }
-        return  isUpdated;
+        return isUpdated;
     }
 
     @Override

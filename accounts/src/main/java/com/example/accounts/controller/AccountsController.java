@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @Tag(
-   name = "CRUD API's for bank",
+        name = "CRUD API's for bank",
         description = "This API's allows you to create, fetch, update and delete accounts"
 )
 @RestController
@@ -53,7 +53,7 @@ public class AccountsController {
     @GetMapping("/fetch")
     public ResponseEntity<CustomerDto> fetchAccountDetails(@RequestParam String mobileNumber) {
         CustomerDto customerDto = accountsService.fetchAccountByMobileNumber(mobileNumber);
-        return  ResponseEntity.status(HttpStatus.OK)
+        return ResponseEntity.status(HttpStatus.OK)
                 .body(customerDto);
     }
 
@@ -64,14 +64,14 @@ public class AccountsController {
 
     @PutMapping("/update")
     public ResponseEntity<ResonseDto> updateAccount(@Valid @RequestBody CustomerDto customerDto) {
-       boolean isUpdated = accountsService.updateAccount(customerDto);
-       if(isUpdated) {
-           return ResponseEntity.status(HttpStatus.OK)
-                   .body(ResonseDto.builder()
-                           .statusCode(AccountsConstants.STATUS_200)
-                           .statusMessage(AccountsConstants.MESSAGE_200)
-                           .build());
-       }
+        boolean isUpdated = accountsService.updateAccount(customerDto);
+        if (isUpdated) {
+            return ResponseEntity.status(HttpStatus.OK)
+                    .body(ResonseDto.builder()
+                            .statusCode(AccountsConstants.STATUS_200)
+                            .statusMessage(AccountsConstants.MESSAGE_200)
+                            .build());
+        }
         return ResponseEntity.status(HttpStatus.EXPECTATION_FAILED)
                 .body(ResonseDto.builder()
                         .statusCode(AccountsConstants.STATUS_417)
@@ -84,13 +84,13 @@ public class AccountsController {
             ({
                     @ApiResponse(responseCode = "200", description = "Account deleted successfully"),
                     @ApiResponse(responseCode = "500", description = "Failed to delete account",
-                    content = @Content (schema = @Schema(implementation = ErrorResponseDto.class)))
+                            content = @Content(schema = @Schema(implementation = ErrorResponseDto.class)))
             })
 
     @DeleteMapping("/delete")
     public ResponseEntity<ResonseDto> deleteAccount(@RequestParam String mobileNumber) {
         boolean isDeleted = accountsService.deleteAccount(mobileNumber);
-        if(isDeleted) {
+        if (isDeleted) {
             return ResponseEntity.status(HttpStatus.OK)
                     .body(ResonseDto.builder()
                             .statusCode(AccountsConstants.STATUS_200)

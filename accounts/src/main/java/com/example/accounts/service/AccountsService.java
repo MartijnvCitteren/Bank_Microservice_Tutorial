@@ -16,14 +16,12 @@ public interface AccountsService {
     CustomerDto fetchAccountByMobileNumber(String mobileNumber);
 
     /**
-     *
      * @param customerDto
      * @return
      */
     boolean updateAccount(CustomerDto customerDto);
 
     /**
-     *
      * @param mobileNumber
      * @return boolean value
      */

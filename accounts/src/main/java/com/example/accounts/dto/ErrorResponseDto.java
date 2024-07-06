@@ -5,6 +5,7 @@ import lombok.Builder;
 import org.springframework.http.HttpStatus;
 
 import java.time.LocalDateTime;
+
 @Builder
 @Schema(name = "ErrorResponse", description = "Error Response details")
 public record ErrorResponseDto(
