@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="added renamed loan package again to git" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ac555158006b9a0868c9bf48b5fc41180e157ba0" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MartijnvCitteren&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MartijnvCitteren/Bank_Microservice_Tutorial.git&quot;,
+    &quot;accountId&quot;: &quot;1ea135e9-8b48-41e9-a878-3faaa494e459&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2iCZf0HqkajGgEUO8qz4PEVWNH5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.AccountsApplication.executor": "Run",
+    "Spring Boot.CardsApplication.executor": "Run",
+    "Spring Boot.LoansApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loans2" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/loans" />
+      <recent name="$PROJECT_DIR$/cards" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loans2" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.accounts.exception" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LoansApplication">
+    <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="DOCKER_USERNAME" value="martijnvancitteren@live.nl" />
+        <env name="DOCKER_PASSWORD" value="&amp;dTM4JbRVaesU79S" />
+      </envs>
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="accounts" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.accounts.AccountsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cards" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cards.CardsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoansApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="loans" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.loans.LoansApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.LoansApplication" />
+      <item itemvalue="Spring Boot.AccountsApplication" />
+      <item itemvalue="Spring Boot.CardsApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="" />
+      <created>1718996618752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718996618752</updated>
+      <workItem from="1718996619870" duration="14412000" />
+      <workItem from="1719314688217" duration="666000" />
+      <workItem from="1719596477660" duration="57000" />
+      <workItem from="1719596541490" duration="1961000" />
+      <workItem from="1719738213179" duration="10138000" />
+      <workItem from="1719945570645" duration="9118000" />
+      <workItem from="1720342524628" duration="5485000" />
+      <workItem from="1720460402414" duration="5139000" />
+      <workItem from="1720896625137" duration="32000" />
+      <workItem from="1720896664290" duration="3824000" />
+      <workItem from="1720972010715" duration="1292000" />
+      <workItem from="1721499284817" duration="151000" />
+      <workItem from="1721499443537" duration="3468000" />
+      <workItem from="1721551176462" duration="8311000" />
+      <workItem from="1721575992560" duration="1877000" />
+    </task>
+    <task id="LOCAL-00001" summary="First micro service">
+      <option name="closed" value="true" />
+      <created>1719947734363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719947734363</updated>
+    </task>
+    <task id="LOCAL-00002" summary="copy-paste cards from instruction repo">
+      <option name="closed" value="true" />
+      <created>1720255450402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720255450402</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactored - copied code || records, builder pattern other mapper">
+      <option name="closed" value="true" />
+      <created>1720259587242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720259587242</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cleaned code">
+      <option name="closed" value="true" />
+      <created>1720259743333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720259743333</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Copy-paste loans code from original study material">
+      <option name="closed" value="true" />
+      <created>1720259881838</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720259881838</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactored loans || added records, other kind of mapper">
+      <option name="closed" value="true" />
+      <created>1720343419761</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720343419761</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docer and docker compose added">
+      <option name="closed" value="true" />
+      <created>1721555993053</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721555993053</updated>
+    </task>
+    <task id="LOCAL-00008" summary="docker and docker compose added">
+      <option name="closed" value="true" />
+      <created>1721556062179</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721556062179</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated package and application names + updated git ignore file">
+      <option name="closed" value="true" />
+      <created>1721576689822</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721576689822</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added renamed loan package again to git">
+      <option name="closed" value="true" />
+      <created>1721576863205</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721576863205</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added renamed loan package again to git">
+      <option name="closed" value="true" />
+      <created>1721577110563</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721577110563</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added renamed loan package again to git">
+      <option name="closed" value="true" />
+      <created>1721577864545</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721577864545</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First micro service" />
+    <MESSAGE value="copy-paste cards from instruction repo" />
+    <MESSAGE value="refactored - copied code || records, builder pattern other mapper" />
+    <MESSAGE value="cleaned code" />
+    <MESSAGE value="Copy-paste loans code from original study material" />
+    <MESSAGE value="refactored loans || added records, other kind of mapper" />
+    <MESSAGE value="docer and docker compose added" />
+    <MESSAGE value="docker and docker compose added" />
+    <MESSAGE value="Updated package and application names + updated git ignore file" />
+    <MESSAGE value="added renamed loan package again to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="added renamed loan package again to git" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
