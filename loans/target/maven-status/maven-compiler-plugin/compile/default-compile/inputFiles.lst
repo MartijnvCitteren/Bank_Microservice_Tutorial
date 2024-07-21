@@ -1,0 +1,16 @@
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/controller/LoansController.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/exception/ResourceNotFoundException.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/LoansApplication.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/dto/LoansDto.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/mapper/LoansMapper.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/service/impl/LoansServiceImpl.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/audit/AuditAwareImpl.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/entity/BaseEntity.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/repository/LoansRepository.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/entity/Loans.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/service/ILoansService.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/exception/GlobalExceptionHandler.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/dto/ErrorResponseDto.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/exception/LoanAlreadyExistsException.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/dto/ResponseDto.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/constants/LoansConstants.java
