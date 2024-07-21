@@ -17,7 +17,7 @@ import java.util.Random;
 @Service
 @RequiredArgsConstructor
 public class CardsServiceImpl implements CardsService {
-    private CardsRepository cardsRepository;
+    private final CardsRepository cardsRepository;
 
     @Override
     public void createCard(String mobileNumber) {

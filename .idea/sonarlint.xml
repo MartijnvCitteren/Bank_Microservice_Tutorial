@@ -3,6 +3,7 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
+        <entry key="EasyBank" value="section2" />
         <entry key="loans" value="loans2" />
       </map>
     </option>
