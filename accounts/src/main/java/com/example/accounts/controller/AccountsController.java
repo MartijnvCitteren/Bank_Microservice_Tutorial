@@ -12,10 +12,13 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -32,8 +35,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/api", produces = {MediaType.APPLICATION_JSON_VALUE})
 @RequiredArgsConstructor
+@Validated
 public class AccountsController {
     private final AccountsService accountsService;
+
+    @Value("${build.version}")
+    private String buildVersion;
 
     @Operation(summary = "Create a new account")
     @ApiResponse(responseCode = "201", description = "Account created successfully")
@@ -103,6 +110,16 @@ public class AccountsController {
                         .statusMessage(AccountsConstants.MESSAGE_500)
                         .build());
 
+    }
+
+    @Operation(summary = "Get build info")
+    @ApiResponse(responseCode = "200",
+            description = "build info details fetched successfully",
+            content = @Content(schema = @Schema(implementation = ErrorResponseDto.class)))
+    @GetMapping("/build-info")
+    public ResponseEntity<String> getBuildInfo() {
+        return ResponseEntity.status(HttpStatus.OK)
+                .body("Build version: " + buildVersion);
     }
 
 

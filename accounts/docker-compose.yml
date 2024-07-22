@@ -1,6 +1,6 @@
 services:
   accounts:
-    image: martijnvcit/accounts:v1
+    image: martijnvcit/accounts:v2
     container_name: accounts-ms
     ports:
       - "8080:8080"
@@ -11,7 +11,7 @@ services:
     networks:
       - mybank
   loans:
-    image: martijnvcit/loans:v1
+    image: martijnvcit/loans:v2
     container_name: loans-ms
     ports:
       - "8090:8090"
@@ -22,7 +22,7 @@ services:
     networks:
       - mybank
   cards:
-    image: martijnvcit/cards:v1
+    image: martijnvcit/cards:v2
     container_name: cards-ms
     ports:
       - "9000:9000"
