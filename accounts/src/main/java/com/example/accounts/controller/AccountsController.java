@@ -12,9 +12,9 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -38,7 +38,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Validated
 public class AccountsController {
     private final AccountsService accountsService;
-
+    private final Environment environment;
     @Value("${build.version}")
     private String buildVersion;
 
@@ -121,6 +121,18 @@ public class AccountsController {
         return ResponseEntity.status(HttpStatus.OK)
                 .body("Build version: " + buildVersion);
     }
+
+    @Operation(summary = "Get environment info")
+    @ApiResponse(responseCode = "200",
+            description = "Get Java details",
+            content = @Content(schema = @Schema(implementation = ErrorResponseDto.class)))
+    @GetMapping("/java-version")
+    public ResponseEntity<String> getJavaVersion() {
+        return ResponseEntity.status(HttpStatus.OK)
+                .body("Java version: " + environment.getProperty("JAVA_HOME"));
+    }
+
+
 
 
 }
