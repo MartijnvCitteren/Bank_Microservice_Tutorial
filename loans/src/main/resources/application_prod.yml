@@ -1,0 +1,20 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to EasyBank prod related APIs for loans"
+  contactDetails:
+    name: "John doe"
+    email: "john@mailme.com"
+  onCallSupport:
+    - 123-456-7890
+    - 123-456-7811
+
+
+
+

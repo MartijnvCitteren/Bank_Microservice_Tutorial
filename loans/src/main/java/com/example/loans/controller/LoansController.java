@@ -2,6 +2,7 @@ package com.example.loans.controller;
 
 import com.example.loans.constants.LoansConstants;
 import com.example.loans.dto.ErrorResponseDto;
+import com.example.loans.dto.LoansContactInfoDto;
 import com.example.loans.dto.LoansDto;
 import com.example.loans.dto.ResponseDto;
 import com.example.loans.service.ILoansService;
@@ -40,8 +41,8 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 @Validated
 public class LoansController {
-
     private ILoansService iLoansService;
+    private LoansContactInfoDto loansContactInfoDto;
 
     @Operation(
             summary = "Create Loan REST API",
@@ -169,6 +170,16 @@ public class LoansController {
                     .status(HttpStatus.EXPECTATION_FAILED)
                     .body(new ResponseDto(LoansConstants.STATUS_417, LoansConstants.MESSAGE_417_DELETE));
         }
+    }
+
+    @Operation(summary = "Get contact info")
+    @ApiResponse(responseCode = "200",
+            description = "contact details in case of issues",
+            content = @Content(schema = @Schema(implementation = ErrorResponseDto.class)))
+    @GetMapping("/contact-info")
+    public ResponseEntity<LoansContactInfoDto> getContactInfo() {
+        return ResponseEntity.status(HttpStatus.OK)
+                .body(loansContactInfoDto);
     }
 
 }

@@ -1,6 +1,7 @@
 package com.example.cards.controller;
 
 import com.example.cards.constants.CardsConstants;
+import com.example.cards.dto.CardsContactInfoDto;
 import com.example.cards.dto.CardsDto;
 import com.example.cards.dto.ErrorResponseDto;
 import com.example.cards.dto.ResponseDto;
@@ -41,6 +42,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class CardsController {
     private final CardsService cardsService;
+    private final CardsContactInfoDto cardContactInfoDto;
 
     @Operation(
             summary = "Create Card REST API",
@@ -165,6 +167,16 @@ public class CardsController {
                     .status(HttpStatus.EXPECTATION_FAILED)
                     .body(new ResponseDto(CardsConstants.STATUS_417, CardsConstants.MESSAGE_417_DELETE));
         }
+    }
+
+    @Operation(summary = "Get contact info")
+    @ApiResponse(responseCode = "200",
+            description = "contact details in case of issues",
+            content = @Content(schema = @Schema(implementation = ErrorResponseDto.class)))
+    @GetMapping("/contact-info")
+    public ResponseEntity<CardsContactInfoDto> getContactInfo() {
+        return ResponseEntity.status(HttpStatus.OK)
+                .body(cardContactInfoDto);
     }
 
 }

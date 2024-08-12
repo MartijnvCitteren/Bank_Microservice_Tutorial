@@ -1,6 +1,7 @@
 package com.example.accounts.controller;
 
 import com.example.accounts.constants.AccountsConstants;
+import com.example.accounts.dto.AccountContactInfoDto;
 import com.example.accounts.dto.CustomerDto;
 import com.example.accounts.dto.ErrorResponseDto;
 import com.example.accounts.dto.ResonseDto;
@@ -41,6 +42,7 @@ public class AccountsController {
     private final Environment environment;
     @Value("${build.version}")
     private String buildVersion;
+    private final AccountContactInfoDto accountContactInfoDto;
 
     @Operation(summary = "Create a new account")
     @ApiResponse(responseCode = "201", description = "Account created successfully")
@@ -130,6 +132,16 @@ public class AccountsController {
     public ResponseEntity<String> getJavaVersion() {
         return ResponseEntity.status(HttpStatus.OK)
                 .body("Java version: " + environment.getProperty("JAVA_HOME"));
+    }
+
+    @Operation(summary = "Get contact info")
+    @ApiResponse(responseCode = "200",
+            description = "contact details in case of issues",
+            content = @Content(schema = @Schema(implementation = ErrorResponseDto.class)))
+    @GetMapping("/contact-info")
+    public ResponseEntity<AccountContactInfoDto> getContactInfo() {
+        return ResponseEntity.status(HttpStatus.OK)
+                .body(accountContactInfoDto);
     }
 
 

@@ -1,0 +1,19 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EasyBank QA related APIs"
+  contactDetails:
+    name: "John doe"
+    email: "john@mailme.com"
+  onCallSupport:
+    - 123-456-7890
+    - 123-456-7811
+
+
+

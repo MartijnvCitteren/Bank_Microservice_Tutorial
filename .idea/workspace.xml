@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="Adding build version info">
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="Adding environment variables">
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/dto/AccountContactInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/resources/application_prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/resources/application_qa.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/src/main/java/com/example/cards/dto/CardsContactInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/src/main/resources/application_prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards/src/main/resources/application_qa.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loans/src/main/java/com/example/loans/dto/LoansContactInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loans/src/main/resources/application_prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loans/src/main/resources/application_qa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/AccountsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/controller/AccountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/example/cards/CardsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/java/com/example/cards/CardsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/example/cards/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/java/com/example/cards/controller/CardsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/example/loans/LoansApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/java/com/example/loans/LoansApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/example/loans/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/java/com/example/loans/controller/LoansController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +37,8 @@
       <list>
         <option value="Record" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,51 +75,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AccountsApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.CardsApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.LoansApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.AccountsApplication.executor": "Run",
+    "Spring Boot.AccountsApplicationPROD.executor": "Run",
+    "Spring Boot.AccountsApplicationQA.executor": "Run",
+    "Spring Boot.CardsApplication.executor": "Run",
+    "Spring Boot.LoansApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;h2&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loans/src/main/resources" />
+      <recent name="$PROJECT_DIR$/cards/src/main/resources" />
       <recent name="$PROJECT_DIR$/loans2" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/loans" />
-      <recent name="$PROJECT_DIR$/cards" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/loans2" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.example.accounts.exception" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.loans.dto" />
+      <recent name="com.example.cards.dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,7 +138,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountsApplication">
+  <component name="RunManager" selected="Spring Boot.CardsApplication">
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
         <env name="DOCKER_USERNAME" value="martijnvancitteren@live.nl" />
@@ -120,6 +147,30 @@
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="accounts" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.accounts.AccountsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountsApplicationPROD" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="accounts" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.accounts.AccountsApplication" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=prod" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountsApplicationQA" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="accounts" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.accounts.AccountsApplication" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=qa" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,6 +193,8 @@
     <list>
       <item itemvalue="Spring Boot.LoansApplication" />
       <item itemvalue="Spring Boot.AccountsApplication" />
+      <item itemvalue="Spring Boot.AccountsApplicationPROD" />
+      <item itemvalue="Spring Boot.AccountsApplicationQA" />
       <item itemvalue="Spring Boot.CardsApplication" />
     </list>
   </component>
@@ -176,7 +229,11 @@
       <workItem from="1721499443537" duration="3468000" />
       <workItem from="1721551176462" duration="8311000" />
       <workItem from="1721575992560" duration="4814000" />
-      <workItem from="1721673531459" duration="1599000" />
+      <workItem from="1721673531459" duration="4655000" />
+      <workItem from="1722678172384" duration="1466000" />
+      <workItem from="1722779825139" duration="2840000" />
+      <workItem from="1722782673588" duration="76000" />
+      <workItem from="1723483789796" duration="4957000" />
     </task>
     <task id="LOCAL-00001" summary="First micro service">
       <option name="closed" value="true" />
@@ -306,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721674863327</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adding environment variables">
+      <option name="closed" value="true" />
+      <created>1721675486381</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721675486381</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +402,8 @@
     <MESSAGE value="updated gitignore" />
     <MESSAGE value="added loans again" />
     <MESSAGE value="Adding build version info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding build version info" />
+    <MESSAGE value="Adding environment variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding environment variables" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
