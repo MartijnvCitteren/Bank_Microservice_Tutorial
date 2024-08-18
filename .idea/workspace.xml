@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="Adding different profiles and endpoins to see what endpoint is active">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="first setup spring cloud">
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts_prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application_qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/accounts_qa.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/cards.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/cards_prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application_qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/cards_qa.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/loans.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application_prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/loans_prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application_qa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/config/loans_qa.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +69,7 @@
     "Spring Boot.AccountsApplicationPROD.executor": "Run",
     "Spring Boot.AccountsApplicationQA.executor": "Run",
     "Spring Boot.CardsApplication.executor": "Debug",
+    "Spring Boot.ConfigserverApplication.executor": "Run",
     "Spring Boot.LoansApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -237,7 +226,7 @@
       <workItem from="1722782673588" duration="76000" />
       <workItem from="1723483789796" duration="7150000" />
       <workItem from="1723700008177" duration="2253000" />
-      <workItem from="1723986415610" duration="2422000" />
+      <workItem from="1723986415610" duration="3328000" />
     </task>
     <task id="LOCAL-00001" summary="First micro service">
       <option name="closed" value="true" />
@@ -391,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723987715255</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="first setup spring cloud">
+      <option name="closed" value="true" />
+      <created>1723989311341</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723989311341</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +421,8 @@
     <MESSAGE value="Adding build version info" />
     <MESSAGE value="Adding environment variables" />
     <MESSAGE value="Adding different profiles and endpoins to see what endpoint is active" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding different profiles and endpoins to see what endpoint is active" />
+    <MESSAGE value="first setup spring cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="first setup spring cloud" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
