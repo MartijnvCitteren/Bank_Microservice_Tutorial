@@ -1,19 +1,11 @@
-spring:
-  config:
-    activate:
-      on-profile: "qa"
-
 build:
-  version: "2.0"
+  version: "3.0"
 
 cards:
-  message: "Welcome to EasyBank QA related APIs for loans"
+  message: "Welcome to EasyBank cards in the Development environment"
   contactDetails:
     name: "John doe"
     email: "john@mailme.com"
   onCallSupport:
     - 123-456-7890
     - 123-456-7811
-
-
-

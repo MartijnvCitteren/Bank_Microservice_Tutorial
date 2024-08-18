@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to EasyBank Accounts in the Devlopment environment"
+  contactDetails:
+    name: "John doe"
+    email: "john@mailme.com"
+  onCallSupport:
+    - 123-456-7890
+    - 123-456-7811

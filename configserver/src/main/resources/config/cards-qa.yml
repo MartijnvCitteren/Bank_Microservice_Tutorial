@@ -1,0 +1,14 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to EasyBank QA related APIs for loans"
+  contactDetails:
+    name: "John doe"
+    email: "john@mailme.com"
+  onCallSupport:
+    - 123-456-7890
+    - 123-456-7811
+
+
+

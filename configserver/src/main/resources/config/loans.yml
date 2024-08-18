@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to EasyBank loans in the Development environment"
+  contactDetails:
+    name: "John doe"
+    email: "john@mailme.com"
+  onCallSupport:
+    - 123-456-7890
+    - 123-456-7811
