@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="added the original application.yml files back">
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="added configserver setting for loans and cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/controller/AccountsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/test/java/com/example/accounts/AccountsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountsApplicationQA">
+  <component name="RunManager" selected="Spring Boot.AccountsApplication">
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
         <env name="DOCKER_USERNAME" value="martijnvancitteren@live.nl" />
@@ -231,7 +229,7 @@
       <workItem from="1723700008177" duration="2253000" />
       <workItem from="1723986415610" duration="5539000" />
       <workItem from="1725176612815" duration="33000" />
-      <workItem from="1725176654358" duration="1539000" />
+      <workItem from="1725176654358" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary="First micro service">
       <option name="closed" value="true" />
@@ -401,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723989879444</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added configserver setting for loans and cards">
+      <option name="closed" value="true" />
+      <created>1725178694722</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1725178694722</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +442,8 @@
     <MESSAGE value="Adding different profiles and endpoins to see what endpoint is active" />
     <MESSAGE value="first setup spring cloud" />
     <MESSAGE value="added the original application.yml files back" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the original application.yml files back" />
+    <MESSAGE value="added configserver setting for loans and cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="added configserver setting for loans and cards" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
