@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 loans:
-  message: "Welcome to EasyBank prod related APIs for loans"
+  message: "Welcome to EasyBank production related APIs for loans"
   contactDetails:
     name: "John doe"
     email: "john@mailme.com"
