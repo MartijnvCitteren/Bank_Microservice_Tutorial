@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to EasyBank DOES THIS CHANGE related APIs"
+  message: "Welcome to EasyBank prod related APIs"
   contactDetails:
     name: "John doe"
     email: "john@mailme.com"
