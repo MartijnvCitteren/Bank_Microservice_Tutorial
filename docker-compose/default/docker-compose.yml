@@ -11,6 +11,10 @@ services:
       timeout: 5s
       retries: 10
       start_period: 5s
+    extends:
+      file: common-config.yml
+      service: network-deploy-service
+
   configserver:
     image: martijnvcit/configserver:v3
     container_name: configserver-ms
@@ -25,66 +29,44 @@ services:
       timeout: 5s
       retries: 10
       start_period: 10s
-    deploy:
-      resources:
-        limits:
-          memory: 700M
-    networks:
-      - mybank
+    extends:
+      file: common-config.yml
+      service: microservice-base-config
+
+
   accounts:
     image: martijnvcit/accounts:v3
     container_name: accounts-ms
     ports:
       - "8080:8080"
-    depends_on:
-      configserver:
-        condition: service_completed_successfully
-    deploy:
-      resources:
-        limits:
-          memory: 700M
-    networks:
-      - mybank
     environment:
       SPRING_APPLICATION_NAME: "accounts"
-      SPRING_CONFIG_IMPORT: "configserver:http://configserver-ms:8071/"
-      SPRING_PROFILES_ACTIVE: default
+    extends:
+      file: common-config.yml
+      service: microservice-configserver-config
+
   loans:
     image: martijnvcit/loans:v3
     container_name: loans-ms
     ports:
       - "8090:8090"
-    depends_on:
-      configserver:
-        condition: service_completed_successfully
-    deploy:
-      resources:
-        limits:
-          memory: 700M
-    networks:
-      - mybank
     environment:
       SPRING_APPLICATION_NAME: "loans"
-      SPRING_CONFIG_IMPORT: "configserver:http://configserver-ms:8071/"
-      SPRING_PROFILES_ACTIVE: default
+    extends:
+      file: common-config.yml
+      service: microservice-configserver-config
+
   cards:
     image: martijnvcit/cards:v3
     container_name: cards-ms
     ports:
       - "9000:9000"
-    depends_on:
-      configserver:
-        condition: service_completed_successfully
-    deploy:
-      resources:
-        limits:
-          memory: 700M
-    networks:
-      - mybank
     environment:
       SPRING_APPLICATION_NAME: "cards"
-      SPRING_CONFIG_IMPORT: "configserver:http://configserver-ms:8071/"
-      SPRING_PROFILES_ACTIVE: default
+    extends:
+      file: common-config.yml
+      service: microservice-configserver-config
+
 networks:
     mybank:
         driver: "bridge"
