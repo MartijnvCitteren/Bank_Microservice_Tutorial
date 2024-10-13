@@ -1,6 +1,6 @@
 services:
   rabbit:
-    image: rabbitmq:3.12-management
+    image: rabbitmq:4.0-management
     hostname: rabbitmq
     ports:
       - "5672:5672"
@@ -24,7 +24,7 @@ services:
         rabbit:
             condition: service_healthy
     healthcheck:
-      test: "curl --fail --silent http://localhost:8071/actuator/health/readiness || grep UP ||exit 1"
+      test: "curl --fail --silent http://localhost:8071/actuator/health/readiness || grep UP ||exit not ready"
       interval: 10s
       timeout: 5s
       retries: 10
