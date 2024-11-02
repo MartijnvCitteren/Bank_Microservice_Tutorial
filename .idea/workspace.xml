@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="added getter and setter for contactinfo dto's">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="small changes to POM and accounts yml">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/example/cards/dto/CardsContactInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/java/com/example/cards/dto/CardsContactInfoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/example/loans/dto/LoansContactInfoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/classes/com/example/loans/dto/LoansContactInfoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +48,13 @@
     &quot;assignee&quot;: &quot;MartijnvCitteren&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="5392b00d-d775-4449-a457-183c6068bd16" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/MartijnvCitteren/Bank_Microservice_Tutorial.git&quot;,
-    &quot;accountId&quot;: &quot;1ea135e9-8b48-41e9-a878-3faaa494e459&quot;
+    &quot;accountId&quot;: &quot;5392b00d-d775-4449-a457-183c6068bd16&quot;
   }
 }</component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -68,51 +69,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
-    "Notification.DoNotAsk-Database detector": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "Spring Boot.AccountsApplication.executor": "Run",
-    "Spring Boot.AccountsApplicationPROD.executor": "Run",
-    "Spring Boot.AccountsApplicationQA.executor": "Run",
-    "Spring Boot.CardsApplication.executor": "Run",
-    "Spring Boot.ConfigserverApplication.executor": "Run",
-    "Spring Boot.LoansApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.accounts [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cards [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.configserver [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.loans [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
+    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AccountsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AccountsApplicationPROD.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AccountsApplicationQA.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CardsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LoansApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/docker-compose/qa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "h2"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker-compose/qa" />
+      <recent name="$PROJECT_DIR$/docker-compose/prod" />
+      <recent name="$PROJECT_DIR$/docker-compose/default" />
       <recent name="$PROJECT_DIR$/loans/src/main/resources" />
       <recent name="$PROJECT_DIR$/cards/src/main/resources" />
-      <recent name="$PROJECT_DIR$/loans2" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/loans" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/configserver/src/main/resources/config" />
@@ -135,7 +141,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigserverApplication">
+  <component name="RunManager" selected="Spring Boot.CardsApplication">
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
         <env name="DOCKER_USERNAME" value="martijnvancitteren@live.nl" />
@@ -180,8 +186,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -222,6 +228,17 @@
       <workItem from="1727602228625" duration="46000" />
       <workItem from="1727602355331" duration="4000" />
       <workItem from="1727602380011" duration="4400000" />
+      <workItem from="1727794999608" duration="1014000" />
+      <workItem from="1727796020838" duration="907000" />
+      <workItem from="1727807011746" duration="4751000" />
+      <workItem from="1728752697545" duration="12946000" />
+      <workItem from="1729346857506" duration="4738000" />
+      <workItem from="1729351761583" duration="204000" />
+      <workItem from="1729422771884" duration="523000" />
+      <workItem from="1729423617395" duration="2096000" />
+      <workItem from="1730232434271" duration="1441000" />
+      <workItem from="1730398410330" duration="78000" />
+      <workItem from="1730568090792" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="First micro service">
       <option name="closed" value="true" />
@@ -439,7 +456,95 @@
       <option name="project" value="LOCAL" />
       <updated>1725198913640</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="addig rabbitMQ and github webhook setup">
+      <option name="closed" value="true" />
+      <created>1728752857770</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1728752857770</updated>
+    </task>
+    <task id="LOCAL-00029" summary="updating gitignore files">
+      <option name="closed" value="true" />
+      <created>1728753046252</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728753046253</updated>
+    </task>
+    <task id="LOCAL-00030" summary="adding docker files and readiness-state">
+      <option name="closed" value="true" />
+      <created>1728827990827</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1728827990827</updated>
+    </task>
+    <task id="LOCAL-00031" summary="updated dockerfile to wait on rabbit and configServer">
+      <option name="closed" value="true" />
+      <created>1728828911180</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1728828911180</updated>
+    </task>
+    <task id="LOCAL-00032" summary="cleaned docker-compose.yml">
+      <option name="closed" value="true" />
+      <created>1728829940176</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1728829940176</updated>
+    </task>
+    <task id="LOCAL-00033" summary="going back to java17 for jib - creating docker images">
+      <option name="closed" value="true" />
+      <created>1728833519723</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1728833519723</updated>
+    </task>
+    <task id="LOCAL-00034" summary="adding docker compose for qa and prod">
+      <option name="closed" value="true" />
+      <created>1729349069489</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1729349069489</updated>
+    </task>
+    <task id="LOCAL-00035" summary="removing cloud config monitor + cloud starter bus amqp">
+      <option name="closed" value="true" />
+      <created>1729349610658</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1729349610658</updated>
+    </task>
+    <task id="LOCAL-00036" summary="replace H2 db in POM met mysql">
+      <option name="closed" value="true" />
+      <created>1729350976813</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1729350976813</updated>
+    </task>
+    <task id="LOCAL-00037" summary="replace H2 db in POM met mysql">
+      <option name="closed" value="true" />
+      <created>1729351899327</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1729351899327</updated>
+    </task>
+    <task id="LOCAL-00038" summary="small changes to POM and accounts yml">
+      <option name="closed" value="true" />
+      <created>1729425681368</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1729425681368</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,13 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First micro service" />
-    <MESSAGE value="copy-paste cards from instruction repo" />
-    <MESSAGE value="refactored - copied code || records, builder pattern other mapper" />
-    <MESSAGE value="cleaned code" />
-    <MESSAGE value="Copy-paste loans code from original study material" />
-    <MESSAGE value="refactored loans || added records, other kind of mapper" />
-    <MESSAGE value="docer and docker compose added" />
     <MESSAGE value="docker and docker compose added" />
     <MESSAGE value="Updated package and application names + updated git ignore file" />
     <MESSAGE value="added renamed loan package again to git" />
@@ -479,7 +577,17 @@
     <MESSAGE value="config via git" />
     <MESSAGE value="changed record to class for contact info" />
     <MESSAGE value="added getter and setter for contactinfo dto's" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getter and setter for contactinfo dto's" />
+    <MESSAGE value="addig rabbitMQ and github webhook setup" />
+    <MESSAGE value="updating gitignore files" />
+    <MESSAGE value="adding docker files and readiness-state" />
+    <MESSAGE value="updated dockerfile to wait on rabbit and configServer" />
+    <MESSAGE value="cleaned docker-compose.yml" />
+    <MESSAGE value="going back to java17 for jib - creating docker images" />
+    <MESSAGE value="adding docker compose for qa and prod" />
+    <MESSAGE value="removing cloud config monitor + cloud starter bus amqp" />
+    <MESSAGE value="replace H2 db in POM met mysql" />
+    <MESSAGE value="small changes to POM and accounts yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes to POM and accounts yml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
