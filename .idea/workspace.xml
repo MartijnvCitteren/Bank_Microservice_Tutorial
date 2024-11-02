@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="updated application.yml files for mysql">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/entity/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/entity/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/entity/Customer.java" afterDir="false" />
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="updated accounts and customer classes to work with mysql">
+      <change afterPath="$PROJECT_DIR$/accounts/accounts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cards/cards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/cards.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loans/loans.iml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/loans.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/target/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/classes/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/src/main/java/com/example/loans/service/impl/LoansServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/loans/src/main/java/com/example/loans/service/impl/LoansServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/example/loans/service/impl/LoansServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/classes/com/example/loans/service/impl/LoansServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/loans-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
@@ -237,7 +235,7 @@
       <workItem from="1729423617395" duration="2096000" />
       <workItem from="1730232434271" duration="1441000" />
       <workItem from="1730398410330" duration="78000" />
-      <workItem from="1730568090792" duration="2733000" />
+      <workItem from="1730568090792" duration="3299000" />
     </task>
     <task id="LOCAL-00001" summary="First micro service">
       <option name="closed" value="true" />
@@ -551,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730569594077</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="updated accounts and customer classes to work with mysql">
+      <option name="closed" value="true" />
+      <created>1730571364177</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1730571364177</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated package and application names + updated git ignore file" />
     <MESSAGE value="added renamed loan package again to git" />
     <MESSAGE value="updated gitignore" />
     <MESSAGE value="added loans again" />
@@ -594,7 +599,8 @@
     <MESSAGE value="replace H2 db in POM met mysql" />
     <MESSAGE value="small changes to POM and accounts yml" />
     <MESSAGE value="updated application.yml files for mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated application.yml files for mysql" />
+    <MESSAGE value="updated accounts and customer classes to work with mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated accounts and customer classes to work with mysql" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
