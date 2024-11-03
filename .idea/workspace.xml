@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="updated accounts and customer classes to work with mysql">
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="removed duplicates in compose and moved to common-config.yml">
       <change afterPath="$PROJECT_DIR$/accounts/accounts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cards/cards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/cards.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loans/loans.iml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/loans.iml" afterDir="false" />
@@ -235,7 +235,7 @@
       <workItem from="1729423617395" duration="2096000" />
       <workItem from="1730232434271" duration="1441000" />
       <workItem from="1730398410330" duration="78000" />
-      <workItem from="1730568090792" duration="3299000" />
+      <workItem from="1730568090792" duration="4970000" />
     </task>
     <task id="LOCAL-00001" summary="First micro service">
       <option name="closed" value="true" />
@@ -557,7 +557,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730571364177</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="updated docker composer for mysql">
+      <option name="closed" value="true" />
+      <created>1730572661243</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1730572661243</updated>
+    </task>
+    <task id="LOCAL-00042" summary="removed duplicates in compose and moved to common-config.yml">
+      <option name="closed" value="true" />
+      <created>1730573007213</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1730573007213</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,8 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added renamed loan package again to git" />
-    <MESSAGE value="updated gitignore" />
     <MESSAGE value="added loans again" />
     <MESSAGE value="Adding build version info" />
     <MESSAGE value="Adding environment variables" />
@@ -600,7 +614,9 @@
     <MESSAGE value="small changes to POM and accounts yml" />
     <MESSAGE value="updated application.yml files for mysql" />
     <MESSAGE value="updated accounts and customer classes to work with mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated accounts and customer classes to work with mysql" />
+    <MESSAGE value="updated docker composer for mysql" />
+    <MESSAGE value="removed duplicates in compose and moved to common-config.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed duplicates in compose and moved to common-config.yml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

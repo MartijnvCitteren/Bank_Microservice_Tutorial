@@ -14,3 +14,4 @@
 /Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/exception/LoanAlreadyExistsException.java
 /Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/dto/ResponseDto.java
 /Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/constants/LoansConstants.java
+/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/loans/src/main/java/com/example/loans/dto/LoansContactInfoDto.java
