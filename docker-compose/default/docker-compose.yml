@@ -4,7 +4,7 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSSQL_DATABASE: cardsdb
+      MYSSQL_DATABASE: accountsdb
     extends:
       file: common-config.yml
       service: microservice-db-config
@@ -30,13 +30,10 @@ services:
       service: microservice-db-config
 
   configserver:
-    image: martijnvcit/configserver:v3
+    image: martijnvcit/configserver:v4
     container_name: configserver-ms
     ports:
       - "8071:8071"
-    depends_on:
-      rabbit:
-        condition: service_healthy
     healthcheck:
       test: "curl --fail --silent http://localhost:8071/actuator/health/readiness || grep UP ||exit not ready"
       interval: 10s
@@ -49,7 +46,7 @@ services:
 
 
   accounts:
-    image: martijnvcit/accounts:v3
+    image: martijnvcit/accounts:v4
     container_name: accounts-ms
     ports:
       - "8080:8080"
@@ -64,13 +61,13 @@ services:
       service: microservice-configserver-config
 
   loans:
-    image: martijnvcit/loans:v3
+    image: martijnvcit/loans:v4
     container_name: loans-ms
     ports:
       - "8090:8090"
     environment:
       SPRING_APPLICATION_NAME: "loans"
-      SPRING_DATASOURCE_URL: jdbc:mysql://loansdb:3307/loansdb
+      SPRING_DATASOURCE_URL: jdbc:mysql://loansdb:3306/loansdb
     depends_on:
       loansdb:
         condition: service_healthy
@@ -79,13 +76,13 @@ services:
       service: microservice-configserver-config
 
   cards:
-    image: martijnvcit/cards:v3
+    image: martijnvcit/cards:v4
     container_name: cards-ms
     ports:
       - "9000:9000"
     environment:
       SPRING_APPLICATION_NAME: "cards"
-      SPRING_DATASOURCE_URL: jdbc:mysql://cardsdb:3308/cardsdb
+      SPRING_DATASOURCE_URL: jdbc:mysql://cardsdb:3306/cardsdb
     depends_on:
       cardsdb:
         condition: service_healthy
