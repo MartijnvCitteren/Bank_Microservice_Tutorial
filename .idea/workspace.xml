@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="adding feignclient and create new endpoint to collect all customer details">
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="Update Docker files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/common-config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,15 +249,7 @@
       <workItem from="1731162840408" duration="618000" />
       <workItem from="1731253349359" duration="6634000" />
       <workItem from="1731765106491" duration="59000" />
-      <workItem from="1731765172311" duration="5821000" />
-    </task>
-    <task id="LOCAL-00001" summary="First micro service">
-      <option name="closed" value="true" />
-      <created>1719947734363</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1719947734363</updated>
+      <workItem from="1731765172311" duration="7296000" />
     </task>
     <task id="LOCAL-00002" summary="copy-paste cards from instruction repo">
       <option name="closed" value="true" />
@@ -647,7 +635,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731769375638</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Update Docker files">
+      <option name="closed" value="true" />
+      <created>1731771157290</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1731771157290</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,7 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added configserver setting for loans and cards" />
     <MESSAGE value="updated poms" />
     <MESSAGE value="config via git" />
     <MESSAGE value="changed record to class for contact info" />
@@ -690,7 +685,8 @@
     <MESSAGE value="update eurekserver in config file" />
     <MESSAGE value="microservices for different services" />
     <MESSAGE value="adding feignclient and create new endpoint to collect all customer details" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding feignclient and create new endpoint to collect all customer details" />
+    <MESSAGE value="Update Docker files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Docker files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
