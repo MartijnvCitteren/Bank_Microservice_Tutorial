@@ -40,7 +40,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AccountsController {
     private final AccountsService accountsService;
     private final Environment environment;
-    //@Value("${build.version}")
+    @Value("${build.version}")
     private String buildVersion;
     private final AccountContactInfoDto accountContactInfoDto;
 

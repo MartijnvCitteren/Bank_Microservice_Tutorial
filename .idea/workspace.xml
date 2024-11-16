@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="update qa en prod common config and docker compose">
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="microservices for different services">
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/dto/CardsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/dto/CustomerDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/dto/LoansDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/service/CustomerServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/service/ICustomersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/service/client/CardsFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/service/client/LoansFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/AccountsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/controller/AccountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/example/accounts/mapper/CustomerMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
-        <option value="Interface" />
         <option value="Dockerfile" />
+        <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -60,9 +75,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;Maven.accounts [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.cards [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.configserver [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eurekaserver [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eurekaserver [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.loans [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
     &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
@@ -78,10 +96,11 @@
     &quot;Spring Boot.AccountsApplicationQA.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.CardsApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaserverApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.LoansApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank/docker-compose&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/martijnvancitteren/Library/CloudStorage/OneDrive-Personal/1. Documenten/6. Software projecten/Studie/Master Microservices/EasyBank&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -103,11 +122,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docker-compose" />
       <recent name="$PROJECT_DIR$/loans" />
       <recent name="$PROJECT_DIR$/docker-compose/qa" />
       <recent name="$PROJECT_DIR$/docker-compose/prod" />
-      <recent name="$PROJECT_DIR$/docker-compose/default" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/configserver/src/main/resources/config" />
@@ -117,6 +136,7 @@
       <recent name="com.example.accounts.exception" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.accounts.dto" />
       <recent name="com.example.loans.dto" />
       <recent name="com.example.cards.dto" />
     </key>
@@ -130,7 +150,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LoansApplication">
+  <component name="RunManager" selected="Spring Boot.AccountsApplication">
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
         <env name="DOCKER_USERNAME" value="martijnvancitteren@live.nl" />
@@ -157,6 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eurekaserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver.EurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoansApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="loans" />
@@ -166,6 +193,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.EurekaserverApplication" />
       <item itemvalue="Spring Boot.AccountsApplication" />
       <item itemvalue="Spring Boot.CardsApplication" />
       <item itemvalue="Spring Boot.ConfigserverApplication" />
@@ -229,6 +257,12 @@
       <workItem from="1730398410330" duration="78000" />
       <workItem from="1730568090792" duration="4970000" />
       <workItem from="1730635200937" duration="1714000" />
+      <workItem from="1730922765020" duration="1041000" />
+      <workItem from="1730924769022" duration="81000" />
+      <workItem from="1731162840408" duration="618000" />
+      <workItem from="1731253349359" duration="6634000" />
+      <workItem from="1731765106491" duration="59000" />
+      <workItem from="1731765172311" duration="3910000" />
     </task>
     <task id="LOCAL-00001" summary="First micro service">
       <option name="closed" value="true" />
@@ -582,7 +616,39 @@
       <option name="project" value="LOCAL" />
       <updated>1730635465732</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="removed typo docker compose">
+      <option name="closed" value="true" />
+      <created>1730923008341</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1730923008341</updated>
+    </task>
+    <task id="LOCAL-00046" summary="adding eureka server">
+      <option name="closed" value="true" />
+      <created>1731255875628</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1731255875628</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update eurekserver in config file">
+      <option name="closed" value="true" />
+      <created>1731256178733</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1731256178733</updated>
+    </task>
+    <task id="LOCAL-00048" summary="microservices for different services">
+      <option name="closed" value="true" />
+      <created>1731259425775</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1731259425775</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,10 +666,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding build version info" />
-    <MESSAGE value="Adding environment variables" />
-    <MESSAGE value="Adding different profiles and endpoins to see what endpoint is active" />
-    <MESSAGE value="first setup spring cloud" />
     <MESSAGE value="added the original application.yml files back" />
     <MESSAGE value="added configserver setting for loans and cards" />
     <MESSAGE value="updated poms" />
@@ -625,7 +687,11 @@
     <MESSAGE value="updated docker composer for mysql" />
     <MESSAGE value="removed duplicates in compose and moved to common-config.yml" />
     <MESSAGE value="adding git ignore files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding git ignore files" />
+    <MESSAGE value="removed typo docker compose" />
+    <MESSAGE value="adding eureka server" />
+    <MESSAGE value="update eurekserver in config file" />
+    <MESSAGE value="microservices for different services" />
+    <option name="LAST_COMMIT_MESSAGE" value="microservices for different services" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
