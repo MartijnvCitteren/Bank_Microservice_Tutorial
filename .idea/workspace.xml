@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="removed mistakes in docker files">
-      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="adding gatewayserver">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/cards.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/cards.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/loans.iml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/loans.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +138,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountsApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayserverApplication">
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
         <env name="DOCKER_USERNAME" value="martijnvancitteren@live.nl" />
@@ -271,15 +261,7 @@
       <workItem from="1731765106491" duration="59000" />
       <workItem from="1731765172311" duration="7790000" />
       <workItem from="1731772991864" duration="177000" />
-      <workItem from="1731854422798" duration="1306000" />
-    </task>
-    <task id="LOCAL-00003" summary="refactored - copied code || records, builder pattern other mapper">
-      <option name="closed" value="true" />
-      <created>1720259587242</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1720259587242</updated>
+      <workItem from="1731854422798" duration="2783000" />
     </task>
     <task id="LOCAL-00004" summary="cleaned code">
       <option name="closed" value="true" />
@@ -665,7 +647,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731772741031</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="adding gatewayserver">
+      <option name="closed" value="true" />
+      <created>1731856452712</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1731856452712</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +673,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="config via git" />
     <MESSAGE value="changed record to class for contact info" />
     <MESSAGE value="added getter and setter for contactinfo dto's" />
     <MESSAGE value="addig rabbitMQ and github webhook setup" />
@@ -708,7 +697,8 @@
     <MESSAGE value="adding feignclient and create new endpoint to collect all customer details" />
     <MESSAGE value="Update Docker files" />
     <MESSAGE value="removed mistakes in docker files" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed mistakes in docker files" />
+    <MESSAGE value="adding gatewayserver" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding gatewayserver" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
