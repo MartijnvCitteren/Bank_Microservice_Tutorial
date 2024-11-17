@@ -107,7 +107,7 @@
 				<version>3.3.2</version>
 				<configuration>
 					<to>
-						<image>martijnvcit/${project.artifactId}:v5</image>
+						<image>martijnvcit/${project.artifactId}:v6</image>
 					</to>
 				</configuration>
 			</plugin>
