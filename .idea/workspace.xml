@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="adding gatewayserver">
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="adding custom routing">
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/example/gatewayserver/filters/FilterUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/example/gatewayserver/filters/RequestTraceFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/example/gatewayserver/filters/ResponseTraceFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,15 +263,7 @@
       <workItem from="1731765106491" duration="59000" />
       <workItem from="1731765172311" duration="7790000" />
       <workItem from="1731772991864" duration="177000" />
-      <workItem from="1731854422798" duration="2783000" />
-    </task>
-    <task id="LOCAL-00004" summary="cleaned code">
-      <option name="closed" value="true" />
-      <created>1720259743333</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1720259743333</updated>
+      <workItem from="1731854422798" duration="4416000" />
     </task>
     <task id="LOCAL-00005" summary="Copy-paste loans code from original study material">
       <option name="closed" value="true" />
@@ -655,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731856452712</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="adding custom routing">
+      <option name="closed" value="true" />
+      <created>1731857599946</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1731857599946</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,7 +675,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed record to class for contact info" />
     <MESSAGE value="added getter and setter for contactinfo dto's" />
     <MESSAGE value="addig rabbitMQ and github webhook setup" />
     <MESSAGE value="updating gitignore files" />
@@ -698,7 +699,8 @@
     <MESSAGE value="Update Docker files" />
     <MESSAGE value="removed mistakes in docker files" />
     <MESSAGE value="adding gatewayserver" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding gatewayserver" />
+    <MESSAGE value="adding custom routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding custom routing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
