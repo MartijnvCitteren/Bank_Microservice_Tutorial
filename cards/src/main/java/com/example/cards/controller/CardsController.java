@@ -15,6 +15,8 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -24,6 +26,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -43,6 +46,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CardsController {
     private final CardsService cardsService;
     private final CardsContactInfoDto cardContactInfoDto;
+    private static final Logger logger = LoggerFactory.getLogger(CardsController.class);
 
     @Operation(
             summary = "Create Card REST API",
@@ -90,10 +94,11 @@ public class CardsController {
             )
     })
     @GetMapping("/fetch")
-    public ResponseEntity<CardsDto> fetchCardDetails(@RequestParam
+    public ResponseEntity<CardsDto> fetchCardDetails(@RequestHeader("easyBank-correlation-id") String correlationId, @RequestParam
                                                      @Pattern(regexp = "(^$|[0-9]{10})", message = "Mobile number must be 10 digits")
                                                      String mobileNumber) {
         CardsDto cardsDto = cardsService.fetchCard(mobileNumber);
+        logger.debug("EasyBank-correlation-id found: {} ", correlationId);
         return ResponseEntity.status(HttpStatus.OK).body(cardsDto);
     }
 

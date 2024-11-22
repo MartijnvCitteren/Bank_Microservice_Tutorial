@@ -25,9 +25,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.logging.Logger;
 
 @Tag(
         name = "CRUD API's for bank",
@@ -38,11 +41,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @Validated
 public class AccountsController {
-    private final AccountsService accountsService;
-    private final Environment environment;
     @Value("${build.version}")
     private String buildVersion;
+    private final AccountsService accountsService;
+    private final Environment environment;
     private final AccountContactInfoDto accountContactInfoDto;
+
 
     @Operation(summary = "Create a new account")
     @ApiResponse(responseCode = "201", description = "Account created successfully")
