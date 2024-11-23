@@ -34,3 +34,13 @@ logging:
     com:
       example:
         gatewayserver: DEBUG
+
+
+resilience4j:
+  circuitbreaker:
+    configs:
+        default:
+            slidingWindowSize: 10
+            permittedNumberOfCallsInHalfOpenState: 2
+            waitDurationInOpenState: 10s
+            failureRateThreshold: 50

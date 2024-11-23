@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="adding header">
+    <list default="true" id="1f059801-acd1-4ef1-b077-692820d86111" name="Changes" comment="updating docker files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loans/target/classes/com/example/loans/controller/LoansController.class" beforeDir="false" afterPath="$PROJECT_DIR$/loans/target/classes/com/example/loans/controller/LoansController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,23 +262,8 @@
       <workItem from="1731765172311" duration="7790000" />
       <workItem from="1731772991864" duration="177000" />
       <workItem from="1731854422798" duration="4700000" />
-      <workItem from="1732298411453" duration="4335000" />
-    </task>
-    <task id="LOCAL-00007" summary="docer and docker compose added">
-      <option name="closed" value="true" />
-      <created>1721555993053</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1721555993053</updated>
-    </task>
-    <task id="LOCAL-00008" summary="docker and docker compose added">
-      <option name="closed" value="true" />
-      <created>1721556062179</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1721556062179</updated>
+      <workItem from="1732298411453" duration="6451000" />
+      <workItem from="1732372398095" duration="1734000" />
     </task>
     <task id="LOCAL-00009" summary="Updated package and application names + updated git ignore file">
       <option name="closed" value="true" />
@@ -658,7 +641,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732303730321</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="update liveness and readyness check for containers">
+      <option name="closed" value="true" />
+      <created>1732304792885</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1732304792885</updated>
+    </task>
+    <task id="LOCAL-00057" summary="updating docker files">
+      <option name="closed" value="true" />
+      <created>1732306575461</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1732306575461</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,8 +675,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updating gitignore files" />
-    <MESSAGE value="adding docker files and readiness-state" />
     <MESSAGE value="updated dockerfile to wait on rabbit and configServer" />
     <MESSAGE value="cleaned docker-compose.yml" />
     <MESSAGE value="going back to java17 for jib - creating docker images" />
@@ -701,7 +698,9 @@
     <MESSAGE value="adding custom routing" />
     <MESSAGE value="copy-pasted filterClasses from tutorial" />
     <MESSAGE value="adding header" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding header" />
+    <MESSAGE value="update liveness and readyness check for containers" />
+    <MESSAGE value="updating docker files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating docker files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
