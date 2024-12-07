@@ -22,7 +22,8 @@ public class GatewayserverApplication {
 					.path("/easybank/accounts/**")
 					.filters(f -> f.rewritePath("/easybank/accounts/(?<segment>.*)", "/${segment}")
 							.addResponseHeader("X-Response-Time", LocalDateTime.now().toString())
-							.circuitBreaker(config -> config.setName("accountsCircuitBreaker")))
+							.circuitBreaker(config -> config.setName("accountsCircuitBreaker")
+								.setFallbackUri("forward:/contactSupport")))
 					.uri("lb://ACCOUNTS"))
 				.route(p -> p
 						.path("/easybank/loans/**")
@@ -33,7 +34,8 @@ public class GatewayserverApplication {
 				.route(p -> p
 						.path("/easybank/cards/**")
 						.filters(f -> f.rewritePath("/easybank/cards/(?<segment>.*)", "/${segment}")
-								.addResponseHeader("X-Response-Time", LocalDateTime.now().toString()))
+								.addResponseHeader("X-Response-Time", LocalDateTime.now().toString())
+								.circuitBreaker(config -> config.setName("cardsCircuitBreaker")))
 						.uri("lb://CARDS")).build();
 	}
 
